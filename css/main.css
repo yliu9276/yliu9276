@@ -1195,7 +1195,7 @@ pre code {
 }
 .site-title {
   font-family: Amita, Long Cang, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1.375em;
+  font-size: 1.8em;
   font-weight: normal;
   margin: 0;
 }
@@ -1576,10 +1576,12 @@ pre code {
   padding: 20px 0;
 }
 .footer.footer-fixed {
-  bottom: 0;
-  left: 0;
   position: absolute;
+  left: 0;
+  bottom: 0;
   right: 0;
+  width: 100%;
+  min-height: $footer-height;
 }
 .footer-inner {
   box-sizing: border-box;
@@ -2712,7 +2714,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #1de4ff;
+  background: #378eba;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
